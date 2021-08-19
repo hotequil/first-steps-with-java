@@ -6,7 +6,7 @@ public class Sum {
 		System.out.println(sum(86, 35));
 	}
 	
-	public static double sum(double a, double b) {
+	private static double sum(double a, double b) {
 		return a + b;
 	}
 }
