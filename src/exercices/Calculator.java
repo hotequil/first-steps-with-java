@@ -81,5 +81,7 @@ public class Calculator {
 		
 		if(hasResult) System.out.print("O resultado é: " + result);
 		else System.out.print("Ocorreu algum erro de digitação no processo");
+		
+		scanner.close();
 	}
 }
